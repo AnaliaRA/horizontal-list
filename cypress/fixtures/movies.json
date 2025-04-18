@@ -1,0 +1,673 @@
+{
+  "collection": [
+    {
+      "id": 1,
+      "type": "movie",
+      "original_title": "The Shawshank Redemption",
+      "year": 1994,
+      "duration_in_seconds": 8520,
+      "images": {
+        "id": 1,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#1A1A1A",
+          "artwork_landscape": "#2A2A2A",
+          "screenshot_portrait": "#3A3A3A",
+          "screenshot_landscape": "#4A4A4A"
+        },
+        "artwork_portrait": "https://example.com/movies/shawshank-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/shawshank-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/shawshank-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/shawshank-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/shawshank-logo.png"
+      }
+    },
+    {
+      "id": 2,
+      "type": "movie",
+      "original_title": "The Godfather",
+      "year": 1972,
+      "duration_in_seconds": 10500,
+      "images": {
+        "id": 2,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#2B2B2B",
+          "artwork_landscape": "#3B3B3B",
+          "screenshot_portrait": "#4B4B4B",
+          "screenshot_landscape": "#5B5B5B"
+        },
+        "artwork_portrait": "https://example.com/movies/godfather-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/godfather-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/godfather-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/godfather-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/godfather-logo.png"
+      }
+    },
+    {
+      "id": 3,
+      "type": "movie",
+      "original_title": "The Dark Knight",
+      "year": 2008,
+      "duration_in_seconds": 9120,
+      "images": {
+        "id": 3,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#3C3C3C",
+          "artwork_landscape": "#4C4C4C",
+          "screenshot_portrait": "#5C5C5C",
+          "screenshot_landscape": "#6C6C6C"
+        },
+        "artwork_portrait": "https://example.com/movies/darkknight-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/darkknight-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/darkknight-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/darkknight-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/darkknight-logo.png"
+      }
+    },
+    {
+      "id": 4,
+      "type": "movie",
+      "original_title": "Pulp Fiction",
+      "year": 1994,
+      "duration_in_seconds": 9240,
+      "images": {
+        "id": 4,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#4D4D4D",
+          "artwork_landscape": "#5D5D5D",
+          "screenshot_portrait": "#6D6D6D",
+          "screenshot_landscape": "#7D7D7D"
+        },
+        "artwork_portrait": "https://example.com/movies/pulpfiction-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/pulpfiction-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/pulpfiction-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/pulpfiction-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/pulpfiction-logo.png"
+      }
+    },
+    {
+      "id": 5,
+      "type": "movie",
+      "original_title": "Fight Club",
+      "year": 1999,
+      "duration_in_seconds": 8340,
+      "images": {
+        "id": 5,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#5E5E5E",
+          "artwork_landscape": "#6E6E6E",
+          "screenshot_portrait": "#7E7E7E",
+          "screenshot_landscape": "#8E8E8E"
+        },
+        "artwork_portrait": "https://example.com/movies/fightclub-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/fightclub-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/fightclub-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/fightclub-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/fightclub-logo.png"
+      }
+    },
+    {
+      "id": 6,
+      "type": "movie",
+      "original_title": "Inception",
+      "year": 2010,
+      "duration_in_seconds": 8880,
+      "images": {
+        "id": 6,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#6F6F6F",
+          "artwork_landscape": "#7F7F7F",
+          "screenshot_portrait": "#8F8F8F",
+          "screenshot_landscape": "#9F9F9F"
+        },
+        "artwork_portrait": "https://example.com/movies/inception-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/inception-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/inception-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/inception-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/inception-logo.png"
+      }
+    },
+    {
+      "id": 7,
+      "type": "movie",
+      "original_title": "The Matrix",
+      "year": 1999,
+      "duration_in_seconds": 8160,
+      "images": {
+        "id": 7,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#7A7A7A",
+          "artwork_landscape": "#8A8A8A",
+          "screenshot_portrait": "#9A9A9A",
+          "screenshot_landscape": "#AAAAAA"
+        },
+        "artwork_portrait": "https://example.com/movies/matrix-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/matrix-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/matrix-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/matrix-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/matrix-logo.png"
+      }
+    },
+    {
+      "id": 8,
+      "type": "movie",
+      "original_title": "Goodfellas",
+      "year": 1990,
+      "duration_in_seconds": 8760,
+      "images": {
+        "id": 8,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#8B8B8B",
+          "artwork_landscape": "#9B9B9B",
+          "screenshot_portrait": "#ABABAB",
+          "screenshot_landscape": "#BBBBBB"
+        },
+        "artwork_portrait": "https://example.com/movies/goodfellas-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/goodfellas-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/goodfellas-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/goodfellas-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/goodfellas-logo.png"
+      }
+    },
+    {
+      "id": 9,
+      "type": "movie",
+      "original_title": "The Silence of the Lambs",
+      "year": 1991,
+      "duration_in_seconds": 7080,
+      "images": {
+        "id": 9,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#9C9C9C",
+          "artwork_landscape": "#ACACAC",
+          "screenshot_portrait": "#BCBCBC",
+          "screenshot_landscape": "#CCCCCC"
+        },
+        "artwork_portrait": "https://example.com/movies/silence-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/silence-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/silence-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/silence-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/silence-logo.png"
+      }
+    },
+    {
+      "id": 10,
+      "type": "movie",
+      "original_title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "duration_in_seconds": 10680,
+      "images": {
+        "id": 10,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#ADADAD",
+          "artwork_landscape": "#BDBDBD",
+          "screenshot_portrait": "#CDCDCD",
+          "screenshot_landscape": "#DDDDDD"
+        },
+        "artwork_portrait": "https://example.com/movies/lotr1-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/lotr1-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/lotr1-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/lotr1-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/lotr1-logo.png"
+      }
+    },
+    {
+      "id": 11,
+      "type": "movie",
+      "original_title": "The Lord of the Rings: The Two Towers",
+      "year": 2002,
+      "duration_in_seconds": 10740,
+      "images": {
+        "id": 11,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#BEBEBE",
+          "artwork_landscape": "#CECECE",
+          "screenshot_portrait": "#DEDEDE",
+          "screenshot_landscape": "#EEEEEE"
+        },
+        "artwork_portrait": "https://example.com/movies/lotr2-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/lotr2-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/lotr2-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/lotr2-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/lotr2-logo.png"
+      }
+    },
+    {
+      "id": 12,
+      "type": "movie",
+      "original_title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "duration_in_seconds": 12060,
+      "images": {
+        "id": 12,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#CFCFCF",
+          "artwork_landscape": "#DFDFDF",
+          "screenshot_portrait": "#EFEFEF",
+          "screenshot_landscape": "#FFFFFF"
+        },
+        "artwork_portrait": "https://example.com/movies/lotr3-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/lotr3-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/lotr3-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/lotr3-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/lotr3-logo.png"
+      }
+    },
+    {
+      "id": 13,
+      "type": "movie",
+      "original_title": "Forrest Gump",
+      "year": 1994,
+      "duration_in_seconds": 8520,
+      "images": {
+        "id": 13,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#D0D0D0",
+          "artwork_landscape": "#E0E0E0",
+          "screenshot_portrait": "#F0F0F0",
+          "screenshot_landscape": "#000000"
+        },
+        "artwork_portrait": "https://example.com/movies/forrest-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/forrest-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/forrest-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/forrest-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/forrest-logo.png"
+      }
+    },
+    {
+      "id": 14,
+      "type": "movie",
+      "original_title": "The Green Mile",
+      "year": 1999,
+      "duration_in_seconds": 10800,
+      "images": {
+        "id": 14,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#E1E1E1",
+          "artwork_landscape": "#F1F1F1",
+          "screenshot_portrait": "#111111",
+          "screenshot_landscape": "#222222"
+        },
+        "artwork_portrait": "https://example.com/movies/greenmile-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/greenmile-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/greenmile-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/greenmile-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/greenmile-logo.png"
+      }
+    },
+    {
+      "id": 15,
+      "type": "movie",
+      "original_title": "The Prestige",
+      "year": 2006,
+      "duration_in_seconds": 7800,
+      "images": {
+        "id": 15,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#F2F2F2",
+          "artwork_landscape": "#333333",
+          "screenshot_portrait": "#444444",
+          "screenshot_landscape": "#555555"
+        },
+        "artwork_portrait": "https://example.com/movies/prestige-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/prestige-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/prestige-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/prestige-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/prestige-logo.png"
+      }
+    },
+    {
+      "id": 16,
+      "type": "movie",
+      "original_title": "The Departed",
+      "year": 2006,
+      "duration_in_seconds": 9120,
+      "images": {
+        "id": 16,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#444444",
+          "artwork_landscape": "#555555",
+          "screenshot_portrait": "#666666",
+          "screenshot_landscape": "#777777"
+        },
+        "artwork_portrait": "https://example.com/movies/departed-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/departed-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/departed-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/departed-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/departed-logo.png"
+      }
+    },
+    {
+      "id": 17,
+      "type": "movie",
+      "original_title": "Gladiator",
+      "year": 2000,
+      "duration_in_seconds": 9300,
+      "images": {
+        "id": 17,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#555555",
+          "artwork_landscape": "#666666",
+          "screenshot_portrait": "#777777",
+          "screenshot_landscape": "#888888"
+        },
+        "artwork_portrait": "https://example.com/movies/gladiator-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/gladiator-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/gladiator-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/gladiator-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/gladiator-logo.png"
+      }
+    },
+    {
+      "id": 18,
+      "type": "movie",
+      "original_title": "The Social Network",
+      "year": 2010,
+      "duration_in_seconds": 7200,
+      "images": {
+        "id": 18,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#666666",
+          "artwork_landscape": "#777777",
+          "screenshot_portrait": "#888888",
+          "screenshot_landscape": "#999999"
+        },
+        "artwork_portrait": "https://example.com/movies/socialnetwork-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/socialnetwork-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/socialnetwork-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/socialnetwork-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/socialnetwork-logo.png"
+      }
+    },
+    {
+      "id": 19,
+      "type": "movie",
+      "original_title": "The Grand Budapest Hotel",
+      "year": 2014,
+      "duration_in_seconds": 5940,
+      "images": {
+        "id": 19,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#777777",
+          "artwork_landscape": "#888888",
+          "screenshot_portrait": "#999999",
+          "screenshot_landscape": "#AAAAAA"
+        },
+        "artwork_portrait": "https://example.com/movies/grandbudapest-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/grandbudapest-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/grandbudapest-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/grandbudapest-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/grandbudapest-logo.png"
+      }
+    },
+    {
+      "id": 20,
+      "type": "movie",
+      "original_title": "Whiplash",
+      "year": 2014,
+      "duration_in_seconds": 6420,
+      "images": {
+        "id": 20,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#888888",
+          "artwork_landscape": "#999999",
+          "screenshot_portrait": "#AAAAAA",
+          "screenshot_landscape": "#BBBBBB"
+        },
+        "artwork_portrait": "https://example.com/movies/whiplash-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/whiplash-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/whiplash-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/whiplash-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/whiplash-logo.png"
+      }
+    },
+    {
+      "id": 21,
+      "type": "movie",
+      "original_title": "Parasite",
+      "year": 2019,
+      "duration_in_seconds": 7920,
+      "images": {
+        "id": 21,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#999999",
+          "artwork_landscape": "#AAAAAA",
+          "screenshot_portrait": "#BBBBBB",
+          "screenshot_landscape": "#CCCCCC"
+        },
+        "artwork_portrait": "https://example.com/movies/parasite-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/parasite-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/parasite-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/parasite-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/parasite-logo.png"
+      }
+    },
+    {
+      "id": 22,
+      "type": "movie",
+      "original_title": "Joker",
+      "year": 2019,
+      "duration_in_seconds": 7320,
+      "images": {
+        "id": 22,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#AAAAAA",
+          "artwork_landscape": "#BBBBBB",
+          "screenshot_portrait": "#CCCCCC",
+          "screenshot_landscape": "#DDDDDD"
+        },
+        "artwork_portrait": "https://example.com/movies/joker-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/joker-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/joker-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/joker-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/joker-logo.png"
+      }
+    },
+    {
+      "id": 23,
+      "type": "movie",
+      "original_title": "1917",
+      "year": 2019,
+      "duration_in_seconds": 7140,
+      "images": {
+        "id": 23,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#BBBBBB",
+          "artwork_landscape": "#CCCCCC",
+          "screenshot_portrait": "#DDDDDD",
+          "screenshot_landscape": "#EEEEEE"
+        },
+        "artwork_portrait": "https://example.com/movies/1917-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/1917-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/1917-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/1917-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/1917-logo.png"
+      }
+    },
+    {
+      "id": 24,
+      "type": "movie",
+      "original_title": "Dune",
+      "year": 2021,
+      "duration_in_seconds": 9300,
+      "images": {
+        "id": 24,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#CCCCCC",
+          "artwork_landscape": "#DDDDDD",
+          "screenshot_portrait": "#EEEEEE",
+          "screenshot_landscape": "#FFFFFF"
+        },
+        "artwork_portrait": "https://example.com/movies/dune-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/dune-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/dune-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/dune-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/dune-logo.png"
+      }
+    },
+    {
+      "id": 25,
+      "type": "movie",
+      "original_title": "Everything Everywhere All at Once",
+      "year": 2022,
+      "duration_in_seconds": 8520,
+      "images": {
+        "id": 25,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#DDDDDD",
+          "artwork_landscape": "#EEEEEE",
+          "screenshot_portrait": "#FFFFFF",
+          "screenshot_landscape": "#000000"
+        },
+        "artwork_portrait": "https://example.com/movies/eeaao-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/eeaao-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/eeaao-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/eeaao-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/eeaao-logo.png"
+      }
+    },
+    {
+      "id": 26,
+      "type": "movie",
+      "original_title": "The Batman",
+      "year": 2022,
+      "duration_in_seconds": 10560,
+      "images": {
+        "id": 26,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#EEEEEE",
+          "artwork_landscape": "#FFFFFF",
+          "screenshot_portrait": "#000000",
+          "screenshot_landscape": "#111111"
+        },
+        "artwork_portrait": "https://example.com/movies/batman-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/batman-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/batman-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/batman-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/batman-logo.png"
+      }
+    },
+    {
+      "id": 27,
+      "type": "movie",
+      "original_title": "Top Gun: Maverick",
+      "year": 2022,
+      "duration_in_seconds": 7800,
+      "images": {
+        "id": 27,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#FFFFFF",
+          "artwork_landscape": "#000000",
+          "screenshot_portrait": "#111111",
+          "screenshot_landscape": "#222222"
+        },
+        "artwork_portrait": "https://example.com/movies/topgun-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/topgun-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/topgun-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/topgun-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/topgun-logo.png"
+      }
+    },
+    {
+      "id": 28,
+      "type": "movie",
+      "original_title": "Oppenheimer",
+      "year": 2023,
+      "duration_in_seconds": 10800,
+      "images": {
+        "id": 28,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#000000",
+          "artwork_landscape": "#111111",
+          "screenshot_portrait": "#222222",
+          "screenshot_landscape": "#333333"
+        },
+        "artwork_portrait": "https://example.com/movies/oppenheimer-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/oppenheimer-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/oppenheimer-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/oppenheimer-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/oppenheimer-logo.png"
+      }
+    },
+    {
+      "id": 29,
+      "type": "movie",
+      "original_title": "Barbie",
+      "year": 2023,
+      "duration_in_seconds": 7140,
+      "images": {
+        "id": 29,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#111111",
+          "artwork_landscape": "#222222",
+          "screenshot_portrait": "#333333",
+          "screenshot_landscape": "#444444"
+        },
+        "artwork_portrait": "https://example.com/movies/barbie-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/barbie-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/barbie-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/barbie-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/barbie-logo.png"
+      }
+    },
+    {
+      "id": 30,
+      "type": "movie",
+      "original_title": "Killers of the Flower Moon",
+      "year": 2023,
+      "duration_in_seconds": 12600,
+      "images": {
+        "id": 30,
+        "locale": "en-US",
+        "dominant_color": {
+          "artwork_portrait": "#222222",
+          "artwork_landscape": "#333333",
+          "screenshot_portrait": "#444444",
+          "screenshot_landscape": "#555555"
+        },
+        "artwork_portrait": "https://example.com/movies/killers-portrait.jpg",
+        "artwork_landscape": "https://example.com/movies/killers-landscape.jpg",
+        "screenshot_portrait": "https://example.com/movies/killers-screenshot-portrait.jpg",
+        "screenshot_landscape": "https://example.com/movies/killers-screenshot-landscape.jpg",
+        "transparent_logo": "https://example.com/movies/killers-logo.png"
+      }
+    }
+  ],
+  "pagination": {
+    "count": 30,
+    "current_page": 1,
+    "next_page": 2,
+    "per_page": 10,
+    "prev_page": null,
+    "total_count": 30,
+    "total_pages": 3
+  }
+} 

@@ -1,0 +1,17 @@
+.imageContainer {
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  height: var(--item-height);
+}
+
+.imageContainerFocused {
+  composes: imageContainer;
+  @apply ring-2 ring-white;
+}
+
+.imageContainerNormal {
+  composes: imageContainer;
+  opacity: 0.5;
+}

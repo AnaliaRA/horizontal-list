@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --item-width: 180px;
+  --item-height: calc(var(--item-width) * (40 / 27)); /* Standard movie poster ratio 27:40 */
+  --item-margin: 10px;
+  --focus-scale: 1.2;
+  --scaled-item-extra-space: calc(var(--item-width) * (var(--focus-scale) - 1));
+  --initial-offset: var(--scaled-item-extra-space);
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply w-full h-full m-0 p-0 overflow-hidden bg-black;
+  }
+
+  body {
+    @apply flex items-center justify-center;
+  }
+
+  #root {
+    @apply flex items-center justify-center;
+    aspect-ratio: 16/9;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  :focus {
+    @apply outline-none ring-2 ring-blue-500 ring-offset-2 ring-offset-black;
+  }
+}
+
+@layer components {
+  .tv-container {
+    @apply w-full h-full flex items-center justify-center bg-black overflow-hidden;
+    width: 1920px;
+    height: 1080px;
+    transform-origin: center;
+    transform: scale(var(--scale-factor, 1));
+  }
+}

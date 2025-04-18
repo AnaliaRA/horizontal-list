@@ -1,0 +1,4 @@
+.spacer {
+  flex-shrink: 0;
+  width: var(--spacer-width, 0);
+}

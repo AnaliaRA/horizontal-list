@@ -1,0 +1,32 @@
+.contentList {
+  display: flex;
+  transition: transform 450ms cubic-bezier(0.22, 1, 0.36, 1);
+  position: relative;
+  will-change: transform;
+  transform: translateX(var(--translate-x, 0));
+  padding: 0 var(--content-padding, 0);
+}
+
+.contentListContainer {
+  @apply overflow-hidden w-full h-full flex items-center;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.contentListContainer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 5%,
+    rgba(0, 0, 0, 0) 95%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  z-index: 20;
+}

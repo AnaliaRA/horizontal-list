@@ -1,0 +1,35 @@
+.contentItem {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  transform-origin: center center;
+  width: calc(var(--item-width) - (var(--item-margin) * 2));
+  margin: 0 var(--item-margin);
+  opacity: 0.7;
+  filter: brightness(1.8);
+  position: relative;
+}
+
+.contentItemFocused {
+  composes: contentItem;
+  transform: scale(1.2);
+  z-index: 10;
+  opacity: 1;
+  filter: brightness(1.1) drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
+.contentItemNormal {
+  composes: contentItem;
+  transform: scale(1);
+  z-index: 0;
+}
+
+.contentItemNear {
+  composes: contentItem;
+  transform: scale(1.05);
+  z-index: 5;
+  opacity: 0.85;
+  filter: brightness(0.9);
+}

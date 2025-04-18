@@ -1,0 +1,9 @@
+.itemTitle {
+  position: absolute;
+  color: white;
+  white-space: nowrap;
+  bottom: -2rem;
+  left: 0.5rem;
+  font-size: 1rem;
+  width: max-content;
+}
