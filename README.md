@@ -18,6 +18,21 @@ A React-based horizontal scrolling list implementation with keyboard navigation,
 - Node.js 18+ 
 - npm or yarn
 
+## CI/CD
+
+The project includes GitHub workflows for continuous integration:
+
+- **PR Checks**: Runs on every pull request to the main branch
+  - Linting (ESLint)
+  - Format checking (Prettier)
+  - Unit tests (Vitest)
+  - Build verification
+  - E2E tests (Cypress)
+
+- **CI Workflow**: Runs on every push to the main branch
+  - Performs the same checks as PR Checks
+  - Uploads build artifacts for potential deployment
+
 ## Project Structure
 
 ```
