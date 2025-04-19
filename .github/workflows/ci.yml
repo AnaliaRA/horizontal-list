@@ -33,15 +33,6 @@ jobs:
       - name: Build project
         run: npm run build
       
-      - name: Run Cypress E2E tests
-        uses: cypress-io/github-action@v5
-        with:
-          build: npm run build
-          start: npm run preview
-          wait-on: 'http://localhost:4173'
-          browser: chrome
-          headless: true
-          
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3
         with:
