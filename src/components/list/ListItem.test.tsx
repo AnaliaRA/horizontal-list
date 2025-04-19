@@ -1,5 +1,5 @@
 import React from 'react';
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach, MockedFunction } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { ListItem } from './ListItem';
 import * as utils from '../../utils';
@@ -80,7 +80,7 @@ describe('ListItem', () => {
     const index = 2;
     const visibleRangeStart = 5;
     const expectedActualIndex = index + visibleRangeStart;
-    
+
     render(
       <ListItem
         content={mockContent}
@@ -93,15 +93,15 @@ describe('ListItem', () => {
 
     const listItem = screen.getByTestId('list-item');
     expect(listItem.getAttribute('data-item-index')).toBe(index.toString());
-    
+
     expect(mockSetItemRef).toHaveBeenCalledWith(expect.anything(), expectedActualIndex);
   });
 
   it('should set tabIndex to 0 when item is focused', () => {
     const index = 2;
     const visibleRangeStart = 5;
-    const focusedIndex = index + visibleRangeStart; // This makes the item focused
-    
+    const focusedIndex = index + visibleRangeStart;
+
     render(
       <ListItem
         content={mockContent}
@@ -119,8 +119,8 @@ describe('ListItem', () => {
   it('should set tabIndex to -1 when item is not focused', () => {
     const index = 2;
     const visibleRangeStart = 5;
-    const focusedIndex = (index + visibleRangeStart) + 1; // This makes the item not focused
-    
+    const focusedIndex = index + visibleRangeStart + 1;
+
     render(
       <ListItem
         content={mockContent}
@@ -139,8 +139,8 @@ describe('ListItem', () => {
     const index = 2;
     const visibleRangeStart = 5;
     const focusedIndex = 7;
-    const isFocused = (index + visibleRangeStart) === focusedIndex;
-    
+    const isFocused = index + visibleRangeStart === focusedIndex;
+
     render(
       <ListItem
         content={mockContent}
@@ -152,7 +152,8 @@ describe('ListItem', () => {
     );
 
     expect(Item).toHaveBeenCalled();
-    const firstCallFirstArg = (Item as any).mock.calls[0][0];
+    const mockedItem = Item as MockedFunction<typeof Item>;
+    const firstCallFirstArg = mockedItem.mock.calls[0][0];
     expect(firstCallFirstArg).toEqual({
       artworkUrl: 'mocked-artwork-url',
       title: 'Mocked Title',
@@ -161,4 +162,4 @@ describe('ListItem', () => {
       focusedIndex,
     });
   });
-}); 
+});

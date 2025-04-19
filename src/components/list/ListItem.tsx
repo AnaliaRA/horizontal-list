@@ -5,7 +5,6 @@ import type { ListItemProps } from '@/types/componentProps';
 const FOCUSABLE_TABINDEX = 0;
 const NON_FOCUSABLE_TABINDEX = -1;
 
-
 /**
  * List item component that renders a content item in the horizontal list
  */
