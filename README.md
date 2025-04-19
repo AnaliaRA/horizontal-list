@@ -27,11 +27,7 @@ The project includes GitHub workflows for continuous integration:
   - Format checking (Prettier)
   - Unit tests (Vitest)
   - Build verification
-  - E2E tests (Cypress)
 
-- **CI Workflow**: Runs on every push to the main branch
-  - Performs the same checks as PR Checks
-  
 ## Project Structure
 
 ```
@@ -75,3 +71,5 @@ src/
 - `npm run lint` - Run ESLint
 - `npm run format` - Format code with Prettier
 - `npm run format:check` - Check formatting without changing files
+- `npm run cypress` - Open Cypress tu run E2E tests
+- `npm run cypress:run` - Run Cypress E2E tests
