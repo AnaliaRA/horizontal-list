@@ -31,8 +31,7 @@ The project includes GitHub workflows for continuous integration:
 
 - **CI Workflow**: Runs on every push to the main branch
   - Performs the same checks as PR Checks
-  - Uploads build artifacts for potential deployment
-
+  
 ## Project Structure
 
 ```
