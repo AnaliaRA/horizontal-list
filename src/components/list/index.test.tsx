@@ -1,5 +1,5 @@
 import React from 'react';
-import { describe, it, expect, vi, beforeEach, MockInstance } from 'vitest';
+import { describe, it, expect, vi, beforeEach, MockInstance, MockedFunction } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { List } from './index';
 import { useContentStore } from '../../store/contentStore';
@@ -166,7 +166,8 @@ describe('List', () => {
     render(<List />);
     
     expect(Spacer).toHaveBeenCalled();
-    const firstCallFirstArg = (Spacer as any).mock.calls[0][0];
+    const mockedSpacer = Spacer as MockedFunction<typeof Spacer>;
+    const firstCallFirstArg = mockedSpacer.mock.calls[0][0];
     expect(firstCallFirstArg).toHaveProperty('width');
     expect(calculateLeadingSpacerWidth).toHaveBeenCalledWith(5);
   });
@@ -189,7 +190,6 @@ describe('List', () => {
     render(<List />);
     
     const listContainer = screen.getByTestId('list-container');
-    const style = window.getComputedStyle(listContainer);
     
     expect(listContainer).toHaveAttribute('style', expect.stringContaining('--translate-x'));
   });

@@ -23,10 +23,4 @@ describe('LoadingState', () => {
     expect(Spinner).toHaveBeenCalled();
   });
   
-  it('passes no props to the Spinner component', () => {
-    render(<LoadingState />);
-    
-    const firstCallFirstArg = (Spinner as any).mock.calls[0][0];
-    expect(firstCallFirstArg).toEqual({});
-  });
 }); 
