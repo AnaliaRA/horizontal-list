@@ -24,4 +24,4 @@ describe('Spinner', () => {
     expect(spinnerCircle?.className.includes('animate-spin')).toBe(true);
     expect(spinnerCircle?.className.includes('border-')).toBe(true);
   });
-}); 
+});

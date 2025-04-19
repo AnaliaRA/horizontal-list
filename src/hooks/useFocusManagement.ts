@@ -13,8 +13,7 @@ export const useFocusManagement = (
   contents: Content[] | null,
   itemRefsMap: React.MutableRefObject<Map<number, HTMLDivElement>>
 ) => {
-
-    useEffect(() => {
+  useEffect(() => {
     if (!contents?.length) return;
 
     const focusedElement = itemRefsMap.current.get(focusedIndex);

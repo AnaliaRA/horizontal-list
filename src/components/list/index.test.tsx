@@ -123,7 +123,7 @@ describe('List', () => {
     });
 
     render(<List />);
-    
+
     expect(screen.getByTestId('loading-state')).toBeInTheDocument();
     expect(screen.queryByTestId('list-container')).not.toBeInTheDocument();
   });
@@ -135,7 +135,7 @@ describe('List', () => {
     });
 
     render(<List />);
-    
+
     expect(screen.getByTestId('error-state')).toBeInTheDocument();
     expect(screen.queryByTestId('list-container')).not.toBeInTheDocument();
   });
@@ -147,14 +147,14 @@ describe('List', () => {
     });
 
     render(<List />);
-    
+
     expect(screen.getByTestId('empty-state')).toBeInTheDocument();
     expect(screen.queryByTestId('list-container')).not.toBeInTheDocument();
   });
 
   it('should render the list container with content items', () => {
     render(<List />);
-    
+
     expect(screen.getByTestId('list-container')).toBeInTheDocument();
     expect(screen.getAllByTestId('mocked-list-item').length).toBe(mockContents.length);
     expect(ListItem).toHaveBeenCalledTimes(mockContents.length);
@@ -162,9 +162,9 @@ describe('List', () => {
 
   it('should render leading spacer when visibleRange.start > 0', () => {
     (useVisibleRange as unknown as MockInstance).mockReturnValue({ start: 5, end: 15 });
-    
+
     render(<List />);
-    
+
     expect(Spacer).toHaveBeenCalled();
     const mockedSpacer = Spacer as MockedFunction<typeof Spacer>;
     const firstCallFirstArg = mockedSpacer.mock.calls[0][0];
@@ -174,9 +174,9 @@ describe('List', () => {
 
   it('should render trailing spacer when visibleRange.end < contents.length', () => {
     (useVisibleRange as unknown as MockInstance).mockReturnValue({ start: 0, end: 1 });
-    
+
     render(<List />);
-    
+
     expect(Spacer).toHaveBeenCalled();
     expect(calculateTrailingSpacerWidth).toHaveBeenCalledWith(1, mockContents.length);
   });
@@ -186,11 +186,11 @@ describe('List', () => {
       ...mockContentStoreDefault,
       focusedIndex: 3,
     });
-    
+
     render(<List />);
-    
+
     const listContainer = screen.getByTestId('list-container');
-    
+
     expect(listContainer).toHaveAttribute('style', expect.stringContaining('--translate-x'));
   });
-}); 
+});

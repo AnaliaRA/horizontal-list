@@ -80,7 +80,7 @@ describe('ListItem', () => {
     const index = 2;
     const visibleRangeStart = 5;
     const expectedActualIndex = index + visibleRangeStart;
-    
+
     render(
       <ListItem
         content={mockContent}
@@ -93,7 +93,7 @@ describe('ListItem', () => {
 
     const listItem = screen.getByTestId('list-item');
     expect(listItem.getAttribute('data-item-index')).toBe(index.toString());
-    
+
     expect(mockSetItemRef).toHaveBeenCalledWith(expect.anything(), expectedActualIndex);
   });
 
@@ -101,7 +101,7 @@ describe('ListItem', () => {
     const index = 2;
     const visibleRangeStart = 5;
     const focusedIndex = index + visibleRangeStart;
-    
+
     render(
       <ListItem
         content={mockContent}
@@ -119,8 +119,8 @@ describe('ListItem', () => {
   it('should set tabIndex to -1 when item is not focused', () => {
     const index = 2;
     const visibleRangeStart = 5;
-    const focusedIndex = (index + visibleRangeStart) + 1;
-    
+    const focusedIndex = index + visibleRangeStart + 1;
+
     render(
       <ListItem
         content={mockContent}
@@ -139,8 +139,8 @@ describe('ListItem', () => {
     const index = 2;
     const visibleRangeStart = 5;
     const focusedIndex = 7;
-    const isFocused = (index + visibleRangeStart) === focusedIndex;
-    
+    const isFocused = index + visibleRangeStart === focusedIndex;
+
     render(
       <ListItem
         content={mockContent}
@@ -162,4 +162,4 @@ describe('ListItem', () => {
       focusedIndex,
     });
   });
-}); 
+});
